@@ -21,6 +21,18 @@ exports.default = function reverseStringCenter(str) {
     return result.join('');
 };
 
+exports.reverseStringUseReduce = function(str) {
+
+    if(isEmpty(str)) return str;
+
+    return str.split('')
+        .reduce((result, val, index, orig) => {
+            result.push(orig[orig.length - index - 1]);
+            return result;
+        }, [])
+        .join('');
+};
+
 exports.reverseStringFullLoop = function(str) {
 
     if(isEmpty(str)) return str;
