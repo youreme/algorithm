@@ -3,8 +3,6 @@ package com.algorithm.question1.mark;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.algorithm.question1.mark.ReverseSentence;
-
 public class Test_ReverseSentence {
 	public ReverseSentence reverseSentence = new ReverseSentence();
 	
