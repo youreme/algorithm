@@ -15,3 +15,5 @@ algorithm.iml
 .idea/libraries/Gradle__org_objenesis_objenesis_1_0.xml
 .idea/modules/algorithm_main.iml
 .idea/modules/algorithm_test.iml
+build/classes/main/com/algorithm/question1/hunky/Solution.class
+build/classes/test/com/algorithm/question1/hunky/SolutionTest.class
