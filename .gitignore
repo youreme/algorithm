@@ -15,3 +15,8 @@ algorithm.iml
 .idea/libraries/Gradle__org_objenesis_objenesis_1_0.xml
 .idea/modules/algorithm_main.iml
 .idea/modules/algorithm_test.iml
+.classpath
+.project
+.settings/
+/build/
+/bin/
