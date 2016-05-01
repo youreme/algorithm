@@ -2,10 +2,7 @@ package com.algorithm.question1.samdasoo;
 
 import java.util.Stack;
 
-public class Question1 {
-
-
-
+public class Solution {
 
 
     public static void main(String[] args) {
@@ -18,9 +15,6 @@ public class Question1 {
 
         while(stack.iterator().hasNext())
             System.out.print(stack.pop() + " ");
-
-
-
 
     }
 }
