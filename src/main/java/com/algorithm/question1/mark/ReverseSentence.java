@@ -1,6 +1,6 @@
-package com.algorithm.question1;
+package com.algorithm.question1.mark;
 
-public class ReverseString_Mark {
+public class ReverseSentence {
 	public String reverseString(String input) {
 		if(input == null) {
 			return null;
