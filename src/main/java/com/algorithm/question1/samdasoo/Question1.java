@@ -1,4 +1,4 @@
-package com.algorithm.question1;
+package com.algorithm.question1.samdasoo;
 
 import java.util.Stack;
 
