@@ -12,6 +12,7 @@ public class StringReverser {
         if(str.length() > Integer.MAX_VALUE) {
             throw new IllegalStateException("cannot process that too long char sequence...");
         }
+
         return true;
     }
 
