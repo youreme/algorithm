@@ -1,7 +1,7 @@
 package com.algorithm.question2;
 
-import com.algorithm.question2.hunky.javarouka.Node;
-import com.algorithm.question2.hunky.javarouka.NodeList;
+import com.algorithm.question2.javarouka.Node;
+import com.algorithm.question2.javarouka.NodeList;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

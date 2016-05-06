@@ -1,4 +1,4 @@
-package com.algorithm.question2.hunky.javarouka;
+package com.algorithm.question2.javarouka;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
