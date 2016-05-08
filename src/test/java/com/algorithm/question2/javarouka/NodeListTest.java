@@ -1,7 +1,5 @@
-package com.algorithm.question2;
+package com.algorithm.question2.javarouka;
 
-import com.algorithm.question2.hunky.javarouka.Node;
-import com.algorithm.question2.hunky.javarouka.NodeList;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
@@ -14,14 +12,13 @@ import static org.junit.Assert.assertTrue;
  */
 public class NodeListTest {
 
-
 	public NodeList<Integer> makeNodeList() {
-		NodeList<Integer> nodeList = new NodeList<Integer>();
-		nodeList.add(new Node<Integer>(1));
-		nodeList.add(new Node<Integer>(2));
-		nodeList.add(new Node<Integer>(3));
-		nodeList.add(new Node<Integer>(4));
-		nodeList.add(new Node<Integer>(5));
+		NodeList<Integer> nodeList = new NodeList<>();
+		nodeList.add(new Node<>(1));
+		nodeList.add(new Node<>(2));
+		nodeList.add(new Node<>(3));
+		nodeList.add(new Node<>(4));
+		nodeList.add(new Node<>(5));
 		return nodeList;
 	}
 

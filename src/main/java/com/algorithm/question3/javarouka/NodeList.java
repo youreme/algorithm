@@ -1,4 +1,4 @@
-package com.algorithm.question2.hunky.javarouka;
+package com.algorithm.question3.javarouka;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
  * @since 1.0
  * @author javarouka
  */
-public class NodeList<T> implements Iterable<Node<T>> {
+public class NodeList<T>implements Iterable<Node<T>> {
 
 	private Node<T> firstNode;
 	private Node<T> lastNode;

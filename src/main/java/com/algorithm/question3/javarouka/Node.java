@@ -1,8 +1,8 @@
-package com.algorithm.question2.hunky.javarouka;
+package com.algorithm.question3.javarouka;
 
 /**
  *
- * createdAt 2016. 5. 5.
+ * createdAt 2016. 5. 8.
  * @since 1.0
  * @author javarouka
  */
