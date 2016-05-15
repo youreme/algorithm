@@ -1,5 +1,6 @@
 package com.algorithm.question2.javarouka;
 
+import com.algorithm.question4.javarouka.NodeListSuitUtils;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
@@ -12,20 +13,10 @@ import static org.junit.Assert.assertTrue;
  */
 public class NodeListTest {
 
-	public NodeList<Integer> makeNodeList() {
-		NodeList<Integer> nodeList = new NodeList<>();
-		nodeList.add(new Node<>(1));
-		nodeList.add(new Node<>(2));
-		nodeList.add(new Node<>(3));
-		nodeList.add(new Node<>(4));
-		nodeList.add(new Node<>(5));
-		return nodeList;
-	}
-
 	@Test
 	public void testIterator() {
 
-		NodeList<Integer> nodeList = makeNodeList();
+		NodeList<Integer> nodeList = NodeListSuitUtils.makeNodeList2();
 
 		int size = nodeList.size();
 		int loopCount = 0;
@@ -40,7 +31,7 @@ public class NodeListTest {
 	@Test
 	public void remove() {
 
-		NodeList<Integer> nodeList = makeNodeList();
+		NodeList<Integer> nodeList = NodeListSuitUtils.makeNodeList2();
 
 		int size = nodeList.size();
 		int mid = size % 2 == 0 ? size / 2 : Double.valueOf(Math.floor(size/2)).intValue();

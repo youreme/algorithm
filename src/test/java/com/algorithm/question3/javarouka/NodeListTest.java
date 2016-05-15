@@ -1,5 +1,6 @@
 package com.algorithm.question3.javarouka;
 
+import com.algorithm.question4.javarouka.NodeListSuitUtils;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -12,22 +13,13 @@ import static org.junit.Assert.*;
  */
 public class NodeListTest {
 
-	public NodeList<String> makeNodeList() {
-		NodeList<String> nodeList = new NodeList<>();
-		nodeList.add(new Node<>("1"));
-		nodeList.add(new Node<>("2"));
-		nodeList.add(new Node<>("3"));
-		nodeList.add(new Node<>("4"));
-		nodeList.add(new Node<>("5"));
-		return nodeList;
-	}
-
 	@Test
 	public void testGetNode() throws Exception {
-		NodeList<String> nodeList = makeNodeList();
+		NodeList<Integer> nodeList = NodeListSuitUtils.makeNodeList3();
 
-		Node<String> node = nodeList.getNode(4);
+		Node<Integer> node = nodeList.getNode(4);
+		System.out.println(node.getData());
 
-		assertTrue("4".equals(node.getData()));
+		assertTrue(5 == node.getData());
 	}
 }
